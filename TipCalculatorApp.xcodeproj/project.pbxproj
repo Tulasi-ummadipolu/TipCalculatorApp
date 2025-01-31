@@ -35,16 +35,6 @@
 			path = TipCalculatorApp;
 			sourceTree = "<group>";
 		};
-		8CD458B92D4D73AD00A68C53 /* TipCalculatorAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TipCalculatorAppTests;
-			sourceTree = "<group>";
-		};
-		8CD458C32D4D73AD00A68C53 /* TipCalculatorAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TipCalculatorAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				8CD458A82D4D73AA00A68C53 /* TipCalculatorApp */,
-				8CD458B92D4D73AD00A68C53 /* TipCalculatorAppTests */,
-				8CD458C32D4D73AD00A68C53 /* TipCalculatorAppUITests */,
 				8CD458A72D4D73AA00A68C53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				8CD458B82D4D73AD00A68C53 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8CD458B92D4D73AD00A68C53 /* TipCalculatorAppTests */,
-			);
 			name = TipCalculatorAppTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				8CD458C22D4D73AD00A68C53 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8CD458C32D4D73AD00A68C53 /* TipCalculatorAppUITests */,
 			);
 			name = TipCalculatorAppUITests;
 			packageProductDependencies = (
